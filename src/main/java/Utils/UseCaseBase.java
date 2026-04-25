@@ -12,8 +12,6 @@ public class UseCaseBase {
 
     @BeforeAll
 
-    //Add spaces here to make a PR
-
     public static void setupMain() {
         page = new BasePage();
         webDriver = SharedDriver.getWebDriver(SharedDriver.Broswer.CHROME);
